@@ -1,0 +1,19 @@
+1.touch .gitignore  //To create the gitignore file  
+
+2.git config --global user.name// to add user name 
+
+3.git config --global user.email // to add the email of user
+
+4.git init  // to initialze the git project
+
+5.git add . // to stand our code in staging area
+
+6.git commit -m "first commit" // to creat the intial commit
+
+7.git status //Just to see the  the working tree clean or not
+
+8.ssh-keygen -t rsa -b 4096 -C  "youremail@gmail.com" // to generate the ssh key for private user
+
+9. git remote add origin <<ssh url.git>  //to link your project to your website
+
+10.git push origin master  // to push your code on gihub
